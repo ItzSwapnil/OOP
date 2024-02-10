@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.28)
+project(OOP)
+
+set(CMAKE_CXX_STANDARD 26)
+
+add_executable(Factorial_with_recursion Factorial_with_recursion.cpp)
+add_executable(Factorial_without_recursion Factorial_without_recursion.cpp)
+add_executable(Fibonacci_with_recursion Fibonacci_with_recursion.cpp)
+add_executable(Fibonacci_without_recursion Fibonacci_without_recursion.cpp)
