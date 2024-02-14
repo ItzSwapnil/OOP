@@ -2,5 +2,8 @@ E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/Factorial_with_recurs
 E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/Factorial_without_recursion.dir
 E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/Fibonacci_with_recursion.dir
 E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/Fibonacci_without_recursion.dir
+E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/Hello_World.dir
+E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/addition_of_2_numbers.dir
+E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/greeting.dir
 E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

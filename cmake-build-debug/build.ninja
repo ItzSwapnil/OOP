@@ -172,6 +172,105 @@ build Fibonacci_without_recursion.exe: CXX_EXECUTABLE_LINKER__Fibonacci_without_
   TARGET_IMPLIB = libFibonacci_without_recursion.dll.a
   TARGET_PDB = Fibonacci_without_recursion.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Hello_World
+
+
+#############################################
+# Order-only phony target for Hello_World
+
+build cmake_object_order_depends_target_Hello_World: phony || CMakeFiles/Hello_World.dir
+
+build CMakeFiles/Hello_World.dir/Hello_World.cpp.obj: CXX_COMPILER__Hello_World_unscanned_Debug E$:/Projects/CLionProjects/OOP/Hello_World.cpp || cmake_object_order_depends_target_Hello_World
+  DEP_FILE = CMakeFiles\Hello_World.dir\Hello_World.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Hello_World.dir
+  OBJECT_FILE_DIR = CMakeFiles\Hello_World.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Hello_World
+
+
+#############################################
+# Link the executable Hello_World.exe
+
+build Hello_World.exe: CXX_EXECUTABLE_LINKER__Hello_World_Debug CMakeFiles/Hello_World.dir/Hello_World.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Hello_World.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Hello_World.exe
+  TARGET_IMPLIB = libHello_World.dll.a
+  TARGET_PDB = Hello_World.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target addition_of_2_numbers
+
+
+#############################################
+# Order-only phony target for addition_of_2_numbers
+
+build cmake_object_order_depends_target_addition_of_2_numbers: phony || CMakeFiles/addition_of_2_numbers.dir
+
+build CMakeFiles/addition_of_2_numbers.dir/addition_of_2_numbers.cpp.obj: CXX_COMPILER__addition_of_2_numbers_unscanned_Debug E$:/Projects/CLionProjects/OOP/addition_of_2_numbers.cpp || cmake_object_order_depends_target_addition_of_2_numbers
+  DEP_FILE = CMakeFiles\addition_of_2_numbers.dir\addition_of_2_numbers.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\addition_of_2_numbers.dir
+  OBJECT_FILE_DIR = CMakeFiles\addition_of_2_numbers.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target addition_of_2_numbers
+
+
+#############################################
+# Link the executable addition_of_2_numbers.exe
+
+build addition_of_2_numbers.exe: CXX_EXECUTABLE_LINKER__addition_of_2_numbers_Debug CMakeFiles/addition_of_2_numbers.dir/addition_of_2_numbers.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\addition_of_2_numbers.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = addition_of_2_numbers.exe
+  TARGET_IMPLIB = libaddition_of_2_numbers.dll.a
+  TARGET_PDB = addition_of_2_numbers.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target greeting
+
+
+#############################################
+# Order-only phony target for greeting
+
+build cmake_object_order_depends_target_greeting: phony || CMakeFiles/greeting.dir
+
+build CMakeFiles/greeting.dir/greeting.cpp.obj: CXX_COMPILER__greeting_unscanned_Debug E$:/Projects/CLionProjects/OOP/greeting.cpp || cmake_object_order_depends_target_greeting
+  DEP_FILE = CMakeFiles\greeting.dir\greeting.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\greeting.dir
+  OBJECT_FILE_DIR = CMakeFiles\greeting.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target greeting
+
+
+#############################################
+# Link the executable greeting.exe
+
+build greeting.exe: CXX_EXECUTABLE_LINKER__greeting_Debug CMakeFiles/greeting.dir/greeting.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\greeting.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = greeting.exe
+  TARGET_IMPLIB = libgreeting.dll.a
+  TARGET_PDB = greeting.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -206,6 +305,12 @@ build Fibonacci_with_recursion: phony Fibonacci_with_recursion.exe
 
 build Fibonacci_without_recursion: phony Fibonacci_without_recursion.exe
 
+build Hello_World: phony Hello_World.exe
+
+build addition_of_2_numbers: phony addition_of_2_numbers.exe
+
+build greeting: phony greeting.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -214,7 +319,7 @@ build Fibonacci_without_recursion: phony Fibonacci_without_recursion.exe
 #############################################
 # Folder: E:/Projects/CLionProjects/OOP/cmake-build-debug
 
-build all: phony Factorial_with_recursion.exe Factorial_without_recursion.exe Fibonacci_with_recursion.exe Fibonacci_without_recursion.exe
+build all: phony Factorial_with_recursion.exe Factorial_without_recursion.exe Fibonacci_with_recursion.exe Fibonacci_without_recursion.exe Hello_World.exe addition_of_2_numbers.exe greeting.exe
 
 # =============================================================================
 # Built-in targets
