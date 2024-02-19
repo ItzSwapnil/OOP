@@ -6,6 +6,7 @@
 
 #include <iostream>
 #include <string>
+#include <algorithm>
 
 int countVowels(const std::string& name) {
     int count = 0;
@@ -36,6 +37,9 @@ int main() {
 
     int nameLength = fullName.length();
     int vowelCount = countVowels(fullName);
+
+    int spaceCount = std::count(fullName.begin(), fullName.end(), ' ');
+    nameLength -= spaceCount;
 
     std::cout << "Your name has " << nameLength << " characters." << std::endl;
     std::cout << "Your name has " << vowelCount << " vowels." << std::endl;
