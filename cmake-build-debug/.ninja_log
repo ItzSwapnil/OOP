@@ -25,3 +25,7 @@
 560	672	7296274304929724	Hello_World.exe	890b55def14e3ab7
 9	589	7296274440259496	CMakeFiles/Hello_World.dir/Hello_World.cpp.obj	d2dab9f166ca7c18
 589	694	7296274441240248	Hello_World.exe	890b55def14e3ab7
+17	1224	7300713241663597	CMakeFiles/greeting.dir/greeting.cpp.obj	ccd1fc7c0f6b8d0c
+1225	1585	7300713245222443	greeting.exe	963551b3fe9bf87d
+8	784	7300715793857679	CMakeFiles/greeting.dir/greeting.cpp.obj	ccd1fc7c0f6b8d0c
+784	904	7300715794987191	greeting.exe	963551b3fe9bf87d
