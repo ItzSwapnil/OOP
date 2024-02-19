@@ -56,7 +56,7 @@ Enter your middle name:De
 Enter your last name:Sarkar
 
 Hello, Swapnil De Sarkar!
-Your name has 17 characters.
+Your name has 15 characters.
 Your name has 5 vowels.
 
  */
