@@ -7,6 +7,7 @@
 
 #include <iostream>
 
+
 using namespace std;
 
 class Complex {
@@ -37,7 +38,7 @@ public:
     }
 
     Complex mul(Complex other) {
-        return Complex(real * other.real, imag * other.imag);
+        return Complex(real * other.real - imag * other.imag, real * other.imag + imag * other.real);
     }
 
 
@@ -79,25 +80,44 @@ int main() {
 
     Complex mul = c1.mul(c2);
 
-    cout << "The sum of the two complex numbers is: ";
+
+    cout << "The sum of ";
+    c1.display();
+    cout << " and ";
+    c2.display();
+    cout << " is: ";
     sum.display();
 
-    cout << "The sub of the two complex numbers is: ";
+    cout << "The subtraction of ";
+    c1.display();
+    cout << " and ";
+    c2.display();
+    cout << " is: ";
     sub.display();
 
-    cout << "The product of the two complex numbers is: ";
+    cout << "The multiplication of ";
+    c1.display();
+    cout << " and ";
+    c2.display();
+    cout << " is: ";
     mul.display();
-
 
     return 0;
 }
-
 /*
                 Output
-Enter the real and imaginary parts of the second complex number:5 -1
+Enter the real and imaginary parts of the first complex number:5 6
 
-The sum of the two complex numbers is: 10 - 4i
-The sub of the two complex numbers is: 0 - 2i
-The product of the two complex numbers is: 25 + 3i
+Enter the real and imaginary parts of the second complex number:7 8
+
+The sum of 5 + 6i
+ and 7 + 8i
+ is: 12 + 14i
+The subtraction of 5 + 6i
+ and 7 + 8i
+ is: -2 - 2i
+The multiplication of 5 + 6i
+ and 7 + 8i
+ is: -13 + 82i
 
  */
