@@ -304,6 +304,39 @@ build complex.exe: CXX_EXECUTABLE_LINKER__complex_Debug CMakeFiles/complex.dir/c
   TARGET_IMPLIB = libcomplex.dll.a
   TARGET_PDB = complex.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Student
+
+
+#############################################
+# Order-only phony target for Student
+
+build cmake_object_order_depends_target_Student: phony || CMakeFiles/Student.dir
+
+build CMakeFiles/Student.dir/Student.cpp.obj: CXX_COMPILER__Student_unscanned_Debug E$:/Projects/CLionProjects/OOP/Student.cpp || cmake_object_order_depends_target_Student
+  DEP_FILE = CMakeFiles\Student.dir\Student.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Student.dir
+  OBJECT_FILE_DIR = CMakeFiles\Student.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Student
+
+
+#############################################
+# Link the executable Student.exe
+
+build Student.exe: CXX_EXECUTABLE_LINKER__Student_Debug CMakeFiles/Student.dir/Student.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Student.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Student.exe
+  TARGET_IMPLIB = libStudent.dll.a
+  TARGET_PDB = Student.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -340,6 +373,8 @@ build Fibonacci_without_recursion: phony Fibonacci_without_recursion.exe
 
 build Hello_World: phony Hello_World.exe
 
+build Student: phony Student.exe
+
 build addition_of_2_numbers: phony addition_of_2_numbers.exe
 
 build complex: phony complex.exe
@@ -354,7 +389,7 @@ build greeting: phony greeting.exe
 #############################################
 # Folder: E:/Projects/CLionProjects/OOP/cmake-build-debug
 
-build all: phony Factorial_with_recursion.exe Factorial_without_recursion.exe Fibonacci_with_recursion.exe Fibonacci_without_recursion.exe Hello_World.exe addition_of_2_numbers.exe greeting.exe complex.exe
+build all: phony Factorial_with_recursion.exe Factorial_without_recursion.exe Fibonacci_with_recursion.exe Fibonacci_without_recursion.exe Hello_World.exe addition_of_2_numbers.exe greeting.exe complex.exe Student.exe
 
 # =============================================================================
 # Built-in targets

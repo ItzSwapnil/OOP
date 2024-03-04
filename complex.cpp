@@ -1,8 +1,8 @@
 //
-// write a code in C++ to to perform addition substraction and multiplication
+// write a code in C++  to perform addition substraction and multiplication
 // of class complex number using 2 constructer
-// one with 0 paremeter and one with a non zero parameter
-// user user input
+// one with 0 parameter and one with a non zero parameter
+// user  input
 //
 
 #include <iostream>
