@@ -337,6 +337,39 @@ build Student.exe: CXX_EXECUTABLE_LINKER__Student_Debug CMakeFiles/Student.dir/S
   TARGET_IMPLIB = libStudent.dll.a
   TARGET_PDB = Student.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Bank
+
+
+#############################################
+# Order-only phony target for Bank
+
+build cmake_object_order_depends_target_Bank: phony || CMakeFiles/Bank.dir
+
+build CMakeFiles/Bank.dir/Bank.cpp.obj: CXX_COMPILER__Bank_unscanned_Debug E$:/Projects/CLionProjects/OOP/Bank.cpp || cmake_object_order_depends_target_Bank
+  DEP_FILE = CMakeFiles\Bank.dir\Bank.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Bank.dir
+  OBJECT_FILE_DIR = CMakeFiles\Bank.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Bank
+
+
+#############################################
+# Link the executable Bank.exe
+
+build Bank.exe: CXX_EXECUTABLE_LINKER__Bank_Debug CMakeFiles/Bank.dir/Bank.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Bank.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Bank.exe
+  TARGET_IMPLIB = libBank.dll.a
+  TARGET_PDB = Bank.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -362,6 +395,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
+
+build Bank: phony Bank.exe
 
 build Factorial_with_recursion: phony Factorial_with_recursion.exe
 
@@ -389,7 +424,7 @@ build greeting: phony greeting.exe
 #############################################
 # Folder: E:/Projects/CLionProjects/OOP/cmake-build-debug
 
-build all: phony Factorial_with_recursion.exe Factorial_without_recursion.exe Fibonacci_with_recursion.exe Fibonacci_without_recursion.exe Hello_World.exe addition_of_2_numbers.exe greeting.exe complex.exe Student.exe
+build all: phony Factorial_with_recursion.exe Factorial_without_recursion.exe Fibonacci_with_recursion.exe Fibonacci_without_recursion.exe Hello_World.exe addition_of_2_numbers.exe greeting.exe complex.exe Student.exe Bank.exe
 
 # =============================================================================
 # Built-in targets
