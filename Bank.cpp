@@ -147,6 +147,7 @@ int main() {
 
 
 /*
+        Output:
 1. Create a new account
 2. Display all accounts
 3. Deposit
