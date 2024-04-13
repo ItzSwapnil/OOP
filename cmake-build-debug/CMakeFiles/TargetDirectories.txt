@@ -8,5 +8,8 @@ E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/greeting.dir
 E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/complex.dir
 E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/Student.dir
 E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/Bank.dir
+E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/Single_Inheritance.dir
+E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/Area_Of_A_Triangle.dir
+E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/Linked_List.dir
 E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

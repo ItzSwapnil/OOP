@@ -370,6 +370,105 @@ build Bank.exe: CXX_EXECUTABLE_LINKER__Bank_Debug CMakeFiles/Bank.dir/Bank.cpp.o
   TARGET_IMPLIB = libBank.dll.a
   TARGET_PDB = Bank.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Single_Inheritance
+
+
+#############################################
+# Order-only phony target for Single_Inheritance
+
+build cmake_object_order_depends_target_Single_Inheritance: phony || CMakeFiles/Single_Inheritance.dir
+
+build CMakeFiles/Single_Inheritance.dir/Single_Inheritance.cpp.obj: CXX_COMPILER__Single_Inheritance_unscanned_Debug E$:/Projects/CLionProjects/OOP/Single_Inheritance.cpp || cmake_object_order_depends_target_Single_Inheritance
+  DEP_FILE = CMakeFiles\Single_Inheritance.dir\Single_Inheritance.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Single_Inheritance.dir
+  OBJECT_FILE_DIR = CMakeFiles\Single_Inheritance.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Single_Inheritance
+
+
+#############################################
+# Link the executable Single_Inheritance.exe
+
+build Single_Inheritance.exe: CXX_EXECUTABLE_LINKER__Single_Inheritance_Debug CMakeFiles/Single_Inheritance.dir/Single_Inheritance.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Single_Inheritance.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Single_Inheritance.exe
+  TARGET_IMPLIB = libSingle_Inheritance.dll.a
+  TARGET_PDB = Single_Inheritance.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Area_Of_A_Triangle
+
+
+#############################################
+# Order-only phony target for Area_Of_A_Triangle
+
+build cmake_object_order_depends_target_Area_Of_A_Triangle: phony || CMakeFiles/Area_Of_A_Triangle.dir
+
+build CMakeFiles/Area_Of_A_Triangle.dir/Area_Of_A_Triangle.cpp.obj: CXX_COMPILER__Area_Of_A_Triangle_unscanned_Debug E$:/Projects/CLionProjects/OOP/Area_Of_A_Triangle.cpp || cmake_object_order_depends_target_Area_Of_A_Triangle
+  DEP_FILE = CMakeFiles\Area_Of_A_Triangle.dir\Area_Of_A_Triangle.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Area_Of_A_Triangle.dir
+  OBJECT_FILE_DIR = CMakeFiles\Area_Of_A_Triangle.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Area_Of_A_Triangle
+
+
+#############################################
+# Link the executable Area_Of_A_Triangle.exe
+
+build Area_Of_A_Triangle.exe: CXX_EXECUTABLE_LINKER__Area_Of_A_Triangle_Debug CMakeFiles/Area_Of_A_Triangle.dir/Area_Of_A_Triangle.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Area_Of_A_Triangle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Area_Of_A_Triangle.exe
+  TARGET_IMPLIB = libArea_Of_A_Triangle.dll.a
+  TARGET_PDB = Area_Of_A_Triangle.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Linked_List
+
+
+#############################################
+# Order-only phony target for Linked_List
+
+build cmake_object_order_depends_target_Linked_List: phony || CMakeFiles/Linked_List.dir
+
+build CMakeFiles/Linked_List.dir/Linked_List.cpp.obj: CXX_COMPILER__Linked_List_unscanned_Debug E$:/Projects/CLionProjects/OOP/Linked_List.cpp || cmake_object_order_depends_target_Linked_List
+  DEP_FILE = CMakeFiles\Linked_List.dir\Linked_List.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Linked_List.dir
+  OBJECT_FILE_DIR = CMakeFiles\Linked_List.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Linked_List
+
+
+#############################################
+# Link the executable Linked_List.exe
+
+build Linked_List.exe: CXX_EXECUTABLE_LINKER__Linked_List_Debug CMakeFiles/Linked_List.dir/Linked_List.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Linked_List.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Linked_List.exe
+  TARGET_IMPLIB = libLinked_List.dll.a
+  TARGET_PDB = Linked_List.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -396,6 +495,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Area_Of_A_Triangle: phony Area_Of_A_Triangle.exe
+
 build Bank: phony Bank.exe
 
 build Factorial_with_recursion: phony Factorial_with_recursion.exe
@@ -407,6 +508,10 @@ build Fibonacci_with_recursion: phony Fibonacci_with_recursion.exe
 build Fibonacci_without_recursion: phony Fibonacci_without_recursion.exe
 
 build Hello_World: phony Hello_World.exe
+
+build Linked_List: phony Linked_List.exe
+
+build Single_Inheritance: phony Single_Inheritance.exe
 
 build Student: phony Student.exe
 
@@ -424,7 +529,7 @@ build greeting: phony greeting.exe
 #############################################
 # Folder: E:/Projects/CLionProjects/OOP/cmake-build-debug
 
-build all: phony Factorial_with_recursion.exe Factorial_without_recursion.exe Fibonacci_with_recursion.exe Fibonacci_without_recursion.exe Hello_World.exe addition_of_2_numbers.exe greeting.exe complex.exe Student.exe Bank.exe
+build all: phony Factorial_with_recursion.exe Factorial_without_recursion.exe Fibonacci_with_recursion.exe Fibonacci_without_recursion.exe Hello_World.exe addition_of_2_numbers.exe greeting.exe complex.exe Student.exe Bank.exe Single_Inheritance.exe Area_Of_A_Triangle.exe Linked_List.exe
 
 # =============================================================================
 # Built-in targets
