@@ -469,6 +469,39 @@ build Linked_List.exe: CXX_EXECUTABLE_LINKER__Linked_List_Debug CMakeFiles/Linke
   TARGET_IMPLIB = libLinked_List.dll.a
   TARGET_PDB = Linked_List.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target stack
+
+
+#############################################
+# Order-only phony target for stack
+
+build cmake_object_order_depends_target_stack: phony || CMakeFiles/stack.dir
+
+build CMakeFiles/stack.dir/stack.cpp.obj: CXX_COMPILER__stack_unscanned_Debug E$:/Projects/CLionProjects/OOP/stack.cpp || cmake_object_order_depends_target_stack
+  DEP_FILE = CMakeFiles\stack.dir\stack.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\stack.dir
+  OBJECT_FILE_DIR = CMakeFiles\stack.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stack
+
+
+#############################################
+# Link the executable stack.exe
+
+build stack.exe: CXX_EXECUTABLE_LINKER__stack_Debug CMakeFiles/stack.dir/stack.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\stack.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = stack.exe
+  TARGET_IMPLIB = libstack.dll.a
+  TARGET_PDB = stack.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -521,6 +554,8 @@ build complex: phony complex.exe
 
 build greeting: phony greeting.exe
 
+build stack: phony stack.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -529,7 +564,7 @@ build greeting: phony greeting.exe
 #############################################
 # Folder: E:/Projects/CLionProjects/OOP/cmake-build-debug
 
-build all: phony Factorial_with_recursion.exe Factorial_without_recursion.exe Fibonacci_with_recursion.exe Fibonacci_without_recursion.exe Hello_World.exe addition_of_2_numbers.exe greeting.exe complex.exe Student.exe Bank.exe Single_Inheritance.exe Area_Of_A_Triangle.exe Linked_List.exe
+build all: phony Factorial_with_recursion.exe Factorial_without_recursion.exe Fibonacci_with_recursion.exe Fibonacci_without_recursion.exe Hello_World.exe addition_of_2_numbers.exe greeting.exe complex.exe Student.exe Bank.exe Single_Inheritance.exe Area_Of_A_Triangle.exe Linked_List.exe stack.exe
 
 # =============================================================================
 # Built-in targets
