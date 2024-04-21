@@ -1,5 +1,5 @@
 //
-// write a C++ program to perform inheritance definition in the code
+// write a C++ program to perform inheritance definition in the code.
 //
 
 #include <iostream>

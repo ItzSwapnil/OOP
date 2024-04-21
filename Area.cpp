@@ -1,5 +1,5 @@
 //
-// Write a C++ program to find area of a triangle, rectangle, circle
+// Write a C++ program to find area of a triangle, rectangle and circle
 //
 
 #include <iostream>

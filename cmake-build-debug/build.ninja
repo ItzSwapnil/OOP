@@ -206,103 +206,103 @@ build Hello_World.exe: CXX_EXECUTABLE_LINKER__Hello_World_Debug CMakeFiles/Hello
   TARGET_PDB = Hello_World.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target addition_of_2_numbers
+# Object build statements for EXECUTABLE target Addition_of_2_numbers
 
 
 #############################################
-# Order-only phony target for addition_of_2_numbers
+# Order-only phony target for Addition_of_2_numbers
 
-build cmake_object_order_depends_target_addition_of_2_numbers: phony || CMakeFiles/addition_of_2_numbers.dir
+build cmake_object_order_depends_target_Addition_of_2_numbers: phony || CMakeFiles/Addition_of_2_numbers.dir
 
-build CMakeFiles/addition_of_2_numbers.dir/addition_of_2_numbers.cpp.obj: CXX_COMPILER__addition_of_2_numbers_unscanned_Debug E$:/Projects/CLionProjects/OOP/addition_of_2_numbers.cpp || cmake_object_order_depends_target_addition_of_2_numbers
-  DEP_FILE = CMakeFiles\addition_of_2_numbers.dir\addition_of_2_numbers.cpp.obj.d
+build CMakeFiles/Addition_of_2_numbers.dir/addition_of_2_numbers.cpp.obj: CXX_COMPILER__Addition_of_2_numbers_unscanned_Debug E$:/Projects/CLionProjects/OOP/addition_of_2_numbers.cpp || cmake_object_order_depends_target_Addition_of_2_numbers
+  DEP_FILE = CMakeFiles\Addition_of_2_numbers.dir\addition_of_2_numbers.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\addition_of_2_numbers.dir
-  OBJECT_FILE_DIR = CMakeFiles\addition_of_2_numbers.dir
+  OBJECT_DIR = CMakeFiles\Addition_of_2_numbers.dir
+  OBJECT_FILE_DIR = CMakeFiles\Addition_of_2_numbers.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target addition_of_2_numbers
+# Link build statements for EXECUTABLE target Addition_of_2_numbers
 
 
 #############################################
-# Link the executable addition_of_2_numbers.exe
+# Link the executable Addition_of_2_numbers.exe
 
-build addition_of_2_numbers.exe: CXX_EXECUTABLE_LINKER__addition_of_2_numbers_Debug CMakeFiles/addition_of_2_numbers.dir/addition_of_2_numbers.cpp.obj
+build Addition_of_2_numbers.exe: CXX_EXECUTABLE_LINKER__Addition_of_2_numbers_Debug CMakeFiles/Addition_of_2_numbers.dir/addition_of_2_numbers.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\addition_of_2_numbers.dir
+  OBJECT_DIR = CMakeFiles\Addition_of_2_numbers.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = addition_of_2_numbers.exe
-  TARGET_IMPLIB = libaddition_of_2_numbers.dll.a
-  TARGET_PDB = addition_of_2_numbers.exe.dbg
+  TARGET_FILE = Addition_of_2_numbers.exe
+  TARGET_IMPLIB = libAddition_of_2_numbers.dll.a
+  TARGET_PDB = Addition_of_2_numbers.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target greeting
+# Object build statements for EXECUTABLE target Greeting
 
 
 #############################################
-# Order-only phony target for greeting
+# Order-only phony target for Greeting
 
-build cmake_object_order_depends_target_greeting: phony || CMakeFiles/greeting.dir
+build cmake_object_order_depends_target_Greeting: phony || CMakeFiles/Greeting.dir
 
-build CMakeFiles/greeting.dir/greeting.cpp.obj: CXX_COMPILER__greeting_unscanned_Debug E$:/Projects/CLionProjects/OOP/greeting.cpp || cmake_object_order_depends_target_greeting
-  DEP_FILE = CMakeFiles\greeting.dir\greeting.cpp.obj.d
+build CMakeFiles/Greeting.dir/greeting.cpp.obj: CXX_COMPILER__Greeting_unscanned_Debug E$:/Projects/CLionProjects/OOP/greeting.cpp || cmake_object_order_depends_target_Greeting
+  DEP_FILE = CMakeFiles\Greeting.dir\greeting.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\greeting.dir
-  OBJECT_FILE_DIR = CMakeFiles\greeting.dir
+  OBJECT_DIR = CMakeFiles\Greeting.dir
+  OBJECT_FILE_DIR = CMakeFiles\Greeting.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target greeting
+# Link build statements for EXECUTABLE target Greeting
 
 
 #############################################
-# Link the executable greeting.exe
+# Link the executable Greeting.exe
 
-build greeting.exe: CXX_EXECUTABLE_LINKER__greeting_Debug CMakeFiles/greeting.dir/greeting.cpp.obj
+build Greeting.exe: CXX_EXECUTABLE_LINKER__Greeting_Debug CMakeFiles/Greeting.dir/greeting.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\greeting.dir
+  OBJECT_DIR = CMakeFiles\Greeting.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = greeting.exe
-  TARGET_IMPLIB = libgreeting.dll.a
-  TARGET_PDB = greeting.exe.dbg
+  TARGET_FILE = Greeting.exe
+  TARGET_IMPLIB = libGreeting.dll.a
+  TARGET_PDB = Greeting.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target complex
+# Object build statements for EXECUTABLE target Complex
 
 
 #############################################
-# Order-only phony target for complex
+# Order-only phony target for Complex
 
-build cmake_object_order_depends_target_complex: phony || CMakeFiles/complex.dir
+build cmake_object_order_depends_target_Complex: phony || CMakeFiles/Complex.dir
 
-build CMakeFiles/complex.dir/complex.cpp.obj: CXX_COMPILER__complex_unscanned_Debug E$:/Projects/CLionProjects/OOP/complex.cpp || cmake_object_order_depends_target_complex
-  DEP_FILE = CMakeFiles\complex.dir\complex.cpp.obj.d
+build CMakeFiles/Complex.dir/complex.cpp.obj: CXX_COMPILER__Complex_unscanned_Debug E$:/Projects/CLionProjects/OOP/complex.cpp || cmake_object_order_depends_target_Complex
+  DEP_FILE = CMakeFiles\Complex.dir\complex.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\complex.dir
-  OBJECT_FILE_DIR = CMakeFiles\complex.dir
+  OBJECT_DIR = CMakeFiles\Complex.dir
+  OBJECT_FILE_DIR = CMakeFiles\Complex.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target complex
+# Link build statements for EXECUTABLE target Complex
 
 
 #############################################
-# Link the executable complex.exe
+# Link the executable Complex.exe
 
-build complex.exe: CXX_EXECUTABLE_LINKER__complex_Debug CMakeFiles/complex.dir/complex.cpp.obj
+build Complex.exe: CXX_EXECUTABLE_LINKER__Complex_Debug CMakeFiles/Complex.dir/complex.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\complex.dir
+  OBJECT_DIR = CMakeFiles\Complex.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = complex.exe
-  TARGET_IMPLIB = libcomplex.dll.a
-  TARGET_PDB = complex.exe.dbg
+  TARGET_FILE = Complex.exe
+  TARGET_IMPLIB = libComplex.dll.a
+  TARGET_PDB = Complex.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Student
@@ -470,37 +470,37 @@ build Linked_List.exe: CXX_EXECUTABLE_LINKER__Linked_List_Debug CMakeFiles/Linke
   TARGET_PDB = Linked_List.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target stack
+# Object build statements for EXECUTABLE target Stack
 
 
 #############################################
-# Order-only phony target for stack
+# Order-only phony target for Stack
 
-build cmake_object_order_depends_target_stack: phony || CMakeFiles/stack.dir
+build cmake_object_order_depends_target_Stack: phony || CMakeFiles/Stack.dir
 
-build CMakeFiles/stack.dir/stack.cpp.obj: CXX_COMPILER__stack_unscanned_Debug E$:/Projects/CLionProjects/OOP/stack.cpp || cmake_object_order_depends_target_stack
-  DEP_FILE = CMakeFiles\stack.dir\stack.cpp.obj.d
+build CMakeFiles/Stack.dir/stack.cpp.obj: CXX_COMPILER__Stack_unscanned_Debug E$:/Projects/CLionProjects/OOP/stack.cpp || cmake_object_order_depends_target_Stack
+  DEP_FILE = CMakeFiles\Stack.dir\stack.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\stack.dir
-  OBJECT_FILE_DIR = CMakeFiles\stack.dir
+  OBJECT_DIR = CMakeFiles\Stack.dir
+  OBJECT_FILE_DIR = CMakeFiles\Stack.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target stack
+# Link build statements for EXECUTABLE target Stack
 
 
 #############################################
-# Link the executable stack.exe
+# Link the executable Stack.exe
 
-build stack.exe: CXX_EXECUTABLE_LINKER__stack_Debug CMakeFiles/stack.dir/stack.cpp.obj
+build Stack.exe: CXX_EXECUTABLE_LINKER__Stack_Debug CMakeFiles/Stack.dir/stack.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\stack.dir
+  OBJECT_DIR = CMakeFiles\Stack.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = stack.exe
-  TARGET_IMPLIB = libstack.dll.a
-  TARGET_PDB = stack.exe.dbg
+  TARGET_FILE = Stack.exe
+  TARGET_IMPLIB = libStack.dll.a
+  TARGET_PDB = Stack.exe.dbg
 
 
 #############################################
@@ -528,9 +528,13 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Addition_of_2_numbers: phony Addition_of_2_numbers.exe
+
 build Area: phony Area.exe
 
 build Bank: phony Bank.exe
+
+build Complex: phony Complex.exe
 
 build Factorial_with_recursion: phony Factorial_with_recursion.exe
 
@@ -540,21 +544,17 @@ build Fibonacci_with_recursion: phony Fibonacci_with_recursion.exe
 
 build Fibonacci_without_recursion: phony Fibonacci_without_recursion.exe
 
+build Greeting: phony Greeting.exe
+
 build Hello_World: phony Hello_World.exe
 
 build Inheritance: phony Inheritance.exe
 
 build Linked_List: phony Linked_List.exe
 
+build Stack: phony Stack.exe
+
 build Student: phony Student.exe
-
-build addition_of_2_numbers: phony addition_of_2_numbers.exe
-
-build complex: phony complex.exe
-
-build greeting: phony greeting.exe
-
-build stack: phony stack.exe
 
 # =============================================================================
 # Folder targets.
@@ -564,7 +564,7 @@ build stack: phony stack.exe
 #############################################
 # Folder: E:/Projects/CLionProjects/OOP/cmake-build-debug
 
-build all: phony Factorial_with_recursion.exe Factorial_without_recursion.exe Fibonacci_with_recursion.exe Fibonacci_without_recursion.exe Hello_World.exe addition_of_2_numbers.exe greeting.exe complex.exe Student.exe Bank.exe Inheritance.exe Area.exe Linked_List.exe stack.exe
+build all: phony Factorial_with_recursion.exe Factorial_without_recursion.exe Fibonacci_with_recursion.exe Fibonacci_without_recursion.exe Hello_World.exe Addition_of_2_numbers.exe Greeting.exe Complex.exe Student.exe Bank.exe Inheritance.exe Area.exe Linked_List.exe Stack.exe
 
 # =============================================================================
 # Built-in targets
