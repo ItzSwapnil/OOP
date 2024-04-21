@@ -1,5 +1,5 @@
 //
-//  Write a C++ program to implement a linked list using classes
+//  Write a C++ program to implement a linked list
 //
 
 #include <iostream>
