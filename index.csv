@@ -9,6 +9,7 @@ SN,Name,Date
 8,Student,20/02/24
 9,Complex,27/02/24
 10,Bank,5/03/24
-11,Single Inheritance using class,
-12,Find area of a triangle using class,
-13,Linked List using class,
+11,Inheritance,
+12,"Area of triangle, rectangle, circle",
+13,Linked List,
+14,Stack,

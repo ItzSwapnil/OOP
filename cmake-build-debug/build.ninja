@@ -371,70 +371,70 @@ build Bank.exe: CXX_EXECUTABLE_LINKER__Bank_Debug CMakeFiles/Bank.dir/Bank.cpp.o
   TARGET_PDB = Bank.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Single_Inheritance
+# Object build statements for EXECUTABLE target Inheritance
 
 
 #############################################
-# Order-only phony target for Single_Inheritance
+# Order-only phony target for Inheritance
 
-build cmake_object_order_depends_target_Single_Inheritance: phony || CMakeFiles/Single_Inheritance.dir
+build cmake_object_order_depends_target_Inheritance: phony || CMakeFiles/Inheritance.dir
 
-build CMakeFiles/Single_Inheritance.dir/Single_Inheritance.cpp.obj: CXX_COMPILER__Single_Inheritance_unscanned_Debug E$:/Projects/CLionProjects/OOP/Single_Inheritance.cpp || cmake_object_order_depends_target_Single_Inheritance
-  DEP_FILE = CMakeFiles\Single_Inheritance.dir\Single_Inheritance.cpp.obj.d
+build CMakeFiles/Inheritance.dir/Inheritance.cpp.obj: CXX_COMPILER__Inheritance_unscanned_Debug E$:/Projects/CLionProjects/OOP/Inheritance.cpp || cmake_object_order_depends_target_Inheritance
+  DEP_FILE = CMakeFiles\Inheritance.dir\Inheritance.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Single_Inheritance.dir
-  OBJECT_FILE_DIR = CMakeFiles\Single_Inheritance.dir
+  OBJECT_DIR = CMakeFiles\Inheritance.dir
+  OBJECT_FILE_DIR = CMakeFiles\Inheritance.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Single_Inheritance
+# Link build statements for EXECUTABLE target Inheritance
 
 
 #############################################
-# Link the executable Single_Inheritance.exe
+# Link the executable Inheritance.exe
 
-build Single_Inheritance.exe: CXX_EXECUTABLE_LINKER__Single_Inheritance_Debug CMakeFiles/Single_Inheritance.dir/Single_Inheritance.cpp.obj
+build Inheritance.exe: CXX_EXECUTABLE_LINKER__Inheritance_Debug CMakeFiles/Inheritance.dir/Inheritance.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Single_Inheritance.dir
+  OBJECT_DIR = CMakeFiles\Inheritance.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Single_Inheritance.exe
-  TARGET_IMPLIB = libSingle_Inheritance.dll.a
-  TARGET_PDB = Single_Inheritance.exe.dbg
+  TARGET_FILE = Inheritance.exe
+  TARGET_IMPLIB = libInheritance.dll.a
+  TARGET_PDB = Inheritance.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Area_Of_A_Triangle
+# Object build statements for EXECUTABLE target Area
 
 
 #############################################
-# Order-only phony target for Area_Of_A_Triangle
+# Order-only phony target for Area
 
-build cmake_object_order_depends_target_Area_Of_A_Triangle: phony || CMakeFiles/Area_Of_A_Triangle.dir
+build cmake_object_order_depends_target_Area: phony || CMakeFiles/Area.dir
 
-build CMakeFiles/Area_Of_A_Triangle.dir/Area_Of_A_Triangle.cpp.obj: CXX_COMPILER__Area_Of_A_Triangle_unscanned_Debug E$:/Projects/CLionProjects/OOP/Area_Of_A_Triangle.cpp || cmake_object_order_depends_target_Area_Of_A_Triangle
-  DEP_FILE = CMakeFiles\Area_Of_A_Triangle.dir\Area_Of_A_Triangle.cpp.obj.d
+build CMakeFiles/Area.dir/Area.cpp.obj: CXX_COMPILER__Area_unscanned_Debug E$:/Projects/CLionProjects/OOP/Area.cpp || cmake_object_order_depends_target_Area
+  DEP_FILE = CMakeFiles\Area.dir\Area.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Area_Of_A_Triangle.dir
-  OBJECT_FILE_DIR = CMakeFiles\Area_Of_A_Triangle.dir
+  OBJECT_DIR = CMakeFiles\Area.dir
+  OBJECT_FILE_DIR = CMakeFiles\Area.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Area_Of_A_Triangle
+# Link build statements for EXECUTABLE target Area
 
 
 #############################################
-# Link the executable Area_Of_A_Triangle.exe
+# Link the executable Area.exe
 
-build Area_Of_A_Triangle.exe: CXX_EXECUTABLE_LINKER__Area_Of_A_Triangle_Debug CMakeFiles/Area_Of_A_Triangle.dir/Area_Of_A_Triangle.cpp.obj
+build Area.exe: CXX_EXECUTABLE_LINKER__Area_Debug CMakeFiles/Area.dir/Area.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Area_Of_A_Triangle.dir
+  OBJECT_DIR = CMakeFiles\Area.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Area_Of_A_Triangle.exe
-  TARGET_IMPLIB = libArea_Of_A_Triangle.dll.a
-  TARGET_PDB = Area_Of_A_Triangle.exe.dbg
+  TARGET_FILE = Area.exe
+  TARGET_IMPLIB = libArea.dll.a
+  TARGET_PDB = Area.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Linked_List
@@ -528,7 +528,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Area_Of_A_Triangle: phony Area_Of_A_Triangle.exe
+build Area: phony Area.exe
 
 build Bank: phony Bank.exe
 
@@ -542,9 +542,9 @@ build Fibonacci_without_recursion: phony Fibonacci_without_recursion.exe
 
 build Hello_World: phony Hello_World.exe
 
-build Linked_List: phony Linked_List.exe
+build Inheritance: phony Inheritance.exe
 
-build Single_Inheritance: phony Single_Inheritance.exe
+build Linked_List: phony Linked_List.exe
 
 build Student: phony Student.exe
 
@@ -564,7 +564,7 @@ build stack: phony stack.exe
 #############################################
 # Folder: E:/Projects/CLionProjects/OOP/cmake-build-debug
 
-build all: phony Factorial_with_recursion.exe Factorial_without_recursion.exe Fibonacci_with_recursion.exe Fibonacci_without_recursion.exe Hello_World.exe addition_of_2_numbers.exe greeting.exe complex.exe Student.exe Bank.exe Single_Inheritance.exe Area_Of_A_Triangle.exe Linked_List.exe stack.exe
+build all: phony Factorial_with_recursion.exe Factorial_without_recursion.exe Fibonacci_with_recursion.exe Fibonacci_without_recursion.exe Hello_World.exe addition_of_2_numbers.exe greeting.exe complex.exe Student.exe Bank.exe Inheritance.exe Area.exe Linked_List.exe stack.exe
 
 # =============================================================================
 # Built-in targets

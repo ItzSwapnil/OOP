@@ -204,7 +204,7 @@ rule CXX_EXECUTABLE_LINKER__Bank_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Single_Inheritance_unscanned_Debug
+rule CXX_COMPILER__Inheritance_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}"E:\Programs\JetBrains\CLion Nova\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -214,7 +214,7 @@ rule CXX_COMPILER__Single_Inheritance_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__Single_Inheritance_Debug
+rule CXX_EXECUTABLE_LINKER__Inheritance_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && "E:\Programs\JetBrains\CLion Nova\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -223,7 +223,7 @@ rule CXX_EXECUTABLE_LINKER__Single_Inheritance_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Area_Of_A_Triangle_unscanned_Debug
+rule CXX_COMPILER__Area_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}"E:\Programs\JetBrains\CLion Nova\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -233,7 +233,7 @@ rule CXX_COMPILER__Area_Of_A_Triangle_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__Area_Of_A_Triangle_Debug
+rule CXX_EXECUTABLE_LINKER__Area_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && "E:\Programs\JetBrains\CLion Nova\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT

@@ -64,9 +64,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Area_Of_A_Triangle::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Area_Of_A_Triangle-Debug-20d66b9f74f6950d4edb.json",
-					"name" : "Area_Of_A_Triangle",
+					"id" : "Area::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Area-Debug-2e96a123e8252acbdea3.json",
+					"name" : "Area",
 					"projectIndex" : 0
 				},
 				{
@@ -113,16 +113,16 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "Linked_List::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Linked_List-Debug-7695fd440e529476fbde.json",
-					"name" : "Linked_List",
+					"id" : "Inheritance::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Inheritance-Debug-fefc53e8291a6c456c4d.json",
+					"name" : "Inheritance",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "Single_Inheritance::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Single_Inheritance-Debug-07d8e296002ac41f7495.json",
-					"name" : "Single_Inheritance",
+					"id" : "Linked_List::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Linked_List-Debug-7695fd440e529476fbde.json",
+					"name" : "Linked_List",
 					"projectIndex" : 0
 				},
 				{
