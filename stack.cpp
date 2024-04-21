@@ -1,5 +1,5 @@
 //
-// Create a stack in C++ also include push, pop , underflow and overflow (exception handling) with user input
+// Create a stack in C++ also include push, pop , underflow and overflow (Exception Handling) with user input
 //
 
 
@@ -123,3 +123,42 @@ int main()
 
     return 0;
 }
+
+
+/*
+Output:
+Enter the size of the stack:2
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice:1
+Enter the value to push:2
+Pushed value: 2
+Stack contents: 2
+ ||
+Enter your choice:1
+Enter the value to push:3
+Pushed value: 3
+Stack contents: 2 3
+ ||
+Enter your choice:1
+Enter the value to push:4
+     Caught exception: Stack Overflow
+ ||
+Enter your choice:3
+Stack contents: 3
+ ||
+Enter your choice:2
+Popped value: 2
+ ||
+Enter your choice:2
+     Caught exception: Stack Underflow
+ ||
+Enter your choice:3
+Stack is empty.
+ ||
+Enter your choice:4
+Exiting the program.
+ */
