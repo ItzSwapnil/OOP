@@ -12,5 +12,6 @@ E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/Inheritance.dir
 E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/Area.dir
 E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/Linked_List.dir
 E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/Stack.dir
+E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/Friend_Function.dir
 E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Projects/CLionProjects/OOP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

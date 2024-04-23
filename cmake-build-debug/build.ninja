@@ -502,6 +502,39 @@ build Stack.exe: CXX_EXECUTABLE_LINKER__Stack_Debug CMakeFiles/Stack.dir/stack.c
   TARGET_IMPLIB = libStack.dll.a
   TARGET_PDB = Stack.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Friend_Function
+
+
+#############################################
+# Order-only phony target for Friend_Function
+
+build cmake_object_order_depends_target_Friend_Function: phony || CMakeFiles/Friend_Function.dir
+
+build CMakeFiles/Friend_Function.dir/Friend_Function.cpp.obj: CXX_COMPILER__Friend_Function_unscanned_Debug E$:/Projects/CLionProjects/OOP/Friend_Function.cpp || cmake_object_order_depends_target_Friend_Function
+  DEP_FILE = CMakeFiles\Friend_Function.dir\Friend_Function.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Friend_Function.dir
+  OBJECT_FILE_DIR = CMakeFiles\Friend_Function.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Friend_Function
+
+
+#############################################
+# Link the executable Friend_Function.exe
+
+build Friend_Function.exe: CXX_EXECUTABLE_LINKER__Friend_Function_Debug CMakeFiles/Friend_Function.dir/Friend_Function.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Friend_Function.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Friend_Function.exe
+  TARGET_IMPLIB = libFriend_Function.dll.a
+  TARGET_PDB = Friend_Function.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -544,6 +577,8 @@ build Fibonacci_with_recursion: phony Fibonacci_with_recursion.exe
 
 build Fibonacci_without_recursion: phony Fibonacci_without_recursion.exe
 
+build Friend_Function: phony Friend_Function.exe
+
 build Greeting: phony Greeting.exe
 
 build Hello_World: phony Hello_World.exe
@@ -564,7 +599,7 @@ build Student: phony Student.exe
 #############################################
 # Folder: E:/Projects/CLionProjects/OOP/cmake-build-debug
 
-build all: phony Factorial_with_recursion.exe Factorial_without_recursion.exe Fibonacci_with_recursion.exe Fibonacci_without_recursion.exe Hello_World.exe Addition_of_2_numbers.exe Greeting.exe Complex.exe Student.exe Bank.exe Inheritance.exe Area.exe Linked_List.exe Stack.exe
+build all: phony Factorial_with_recursion.exe Factorial_without_recursion.exe Fibonacci_with_recursion.exe Fibonacci_without_recursion.exe Hello_World.exe Addition_of_2_numbers.exe Greeting.exe Complex.exe Student.exe Bank.exe Inheritance.exe Area.exe Linked_List.exe Stack.exe Friend_Function.exe
 
 # =============================================================================
 # Built-in targets

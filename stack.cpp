@@ -67,6 +67,7 @@ public:
             std::cout << "Stack is empty." << std::endl;
         } else {
             std::cout << "Stack contents: ";
+
             for (int i = 0; i <= top; i++) {
                 std::cout << arr[i] << " ";
             }
@@ -124,6 +125,3 @@ int main()
 
     return 0;
 }
-
-/*
- * */
