@@ -2,40 +2,47 @@
 // Write a C++ program to implement Friend class and function
 //
 #include <iostream>
-#include <iostream>
+
+class B;
 
 class A {
+private:
+    int dataA;
+
 public:
-    int x = 10;
-    void print_x() const {
-        std::cout << x << std::endl;
-    }
+    A() : dataA(100) {}
+
+    friend void showData(A objA, B objB);
+
+    friend class B;
 };
 
 class B {
+private:
+    int dataB;
+
 public:
-    int y = 20;
-    void print_y() const {
-        std::cout << y << std::endl;
+    B() : dataB(90) {}
+
+    friend void showData(A objA, B objB) {
+        std::cout << "Data from class A: " << objA.dataA << std::endl;
+        std::cout << "Data from class B: " << objB.dataB << std::endl;
     }
 };
 
-class Friend {
-public:
-    friend void print_xy(const A&, const B&);
-};
-
-void print_xy(const A& a, const B& b) {
-    a.print_x();
-    b.print_y();
-}
-
 int main() {
-    const A a;
-    const B b;
-    Friend f;
+    A objA;
+    B objB;
 
-    print_xy(a, b);
+    showData(objA, objB);
 
     return 0;
 }
+
+/*
+Output:
+
+Data from class A: 100
+Data from class B: 90
+
+ */

@@ -1,5 +1,5 @@
 //
-// Create a stack in C++ also include push, pop , underflow and overflow (Exception Handling) with user input
+// Create a generic stack in C++ also include push, pop , underflow and overflow (Exception Handling) with user input
 //
 
 
@@ -125,3 +125,97 @@ int main()
 
     return 0;
 }
+
+
+/*
+Output:
+
+E:\Projects\CLionProjects\OOP\cmake-build-debug\Stack.exe
+Enter the size of the stack:2
+
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice:1
+
+Enter the value to push:3
+
+Pushed value: 3
+Stack contents: 3
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice:1
+
+Enter the value to push:6
+
+Pushed value: 6
+Stack contents: 3 6
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice:1
+
+Enter the value to push:9
+
+Pushed value:
+ Caught exception: Stack Overflow
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 2
+
+Popped value: 6
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice:3
+
+Stack contents: 3
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice:2
+
+Popped value: 3
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice:3
+
+Stack is empty.
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice:2
+
+Popped value:
+ Caught exception: Stack Underflow
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice:4
+
+Exiting the program.
+
+Process finished with exit code 0
+
+ */
