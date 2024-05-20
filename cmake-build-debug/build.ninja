@@ -535,6 +535,39 @@ build Friend_Function.exe: CXX_EXECUTABLE_LINKER__Friend_Function_Debug CMakeFil
   TARGET_IMPLIB = libFriend_Function.dll.a
   TARGET_PDB = Friend_Function.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target STL
+
+
+#############################################
+# Order-only phony target for STL
+
+build cmake_object_order_depends_target_STL: phony || CMakeFiles/STL.dir
+
+build CMakeFiles/STL.dir/STL.cpp.obj: CXX_COMPILER__STL_unscanned_Debug E$:/Projects/CLionProjects/OOP/STL.cpp || cmake_object_order_depends_target_STL
+  DEP_FILE = CMakeFiles\STL.dir\STL.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\STL.dir
+  OBJECT_FILE_DIR = CMakeFiles\STL.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target STL
+
+
+#############################################
+# Link the executable STL.exe
+
+build STL.exe: CXX_EXECUTABLE_LINKER__STL_Debug CMakeFiles/STL.dir/STL.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\STL.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = STL.exe
+  TARGET_IMPLIB = libSTL.dll.a
+  TARGET_PDB = STL.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -587,6 +620,8 @@ build Inheritance: phony Inheritance.exe
 
 build Linked_List: phony Linked_List.exe
 
+build STL: phony STL.exe
+
 build Stack: phony Stack.exe
 
 build Student: phony Student.exe
@@ -599,7 +634,7 @@ build Student: phony Student.exe
 #############################################
 # Folder: E:/Projects/CLionProjects/OOP/cmake-build-debug
 
-build all: phony Factorial_with_recursion.exe Factorial_without_recursion.exe Fibonacci_with_recursion.exe Fibonacci_without_recursion.exe Hello_World.exe Addition_of_2_numbers.exe Greeting.exe Complex.exe Student.exe Bank.exe Inheritance.exe Area.exe Linked_List.exe Stack.exe Friend_Function.exe
+build all: phony Factorial_with_recursion.exe Factorial_without_recursion.exe Fibonacci_with_recursion.exe Fibonacci_without_recursion.exe Hello_World.exe Addition_of_2_numbers.exe Greeting.exe Complex.exe Student.exe Bank.exe Inheritance.exe Area.exe Linked_List.exe Stack.exe Friend_Function.exe STL.exe
 
 # =============================================================================
 # Built-in targets
