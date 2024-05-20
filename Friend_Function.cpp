@@ -1,6 +1,6 @@
 //
 // Write a C++ program to implement a friend class and a friend function.
-// And overload the friend function.
+// And overload the insertion operators
 //
 
 #include <iostream>
@@ -14,8 +14,7 @@ private:
 public:
     A() : dataA(100) {}
 
-    friend void showData(A objA, B objB);
-    friend void showData(A& objA);
+    friend std::ostream& operator<<(std::ostream& os, const A& objA);
 };
 
 class B {
@@ -25,28 +24,29 @@ private:
 public:
     B() : dataB(90) {}
 
-    friend void showData(A objA, B objB);
+    friend std::ostream& operator<<(std::ostream& os, const B& objB);
 };
 
-void showData(A objA, B objB) {
-    std::cout << "Data from class A: " << objA.dataA << std::endl;
-    std::cout << "Data from class B: " << objB.dataB << std::endl;
+std::ostream& operator<<(std::ostream& os, const A& objA) {
+    os << "Data from class A: " << objA.dataA;
+    return os;
 }
 
-void showData(A& objA) {
-    objA.dataA += 50;
-    std::cout << "Overloaded data from class A: " << objA.dataA << std::endl;
+std::ostream& operator<<(std::ostream& os, const B& objB) {
+    os << "Data from class B: " << objB.dataB;
+    return os;
 }
 
 int main() {
     A objA;
     B objB;
 
-    showData(objA, objB);
-    showData(objA);
+    std::cout << objA << std::endl;
+    std::cout << objB << std::endl;
 
     return 0;
 }
+
 
 
 /*
@@ -54,6 +54,5 @@ Output:
 
 Data from class A: 100
 Data from class B: 90
-Overloaded data from class A: 150
 
  */

@@ -1,4 +1,4 @@
-set(CMAKE_RC_COMPILER "E:/Programs/JetBrains/CLion Nova/bin/mingw/bin/windres.exe")
+set(CMAKE_RC_COMPILER "E:/Programs/JetBrains/CLion/bin/mingw/bin/windres.exe")
 set(CMAKE_RC_COMPILER_ARG1 "")
 set(CMAKE_RC_COMPILER_LOADED 1)
 set(CMAKE_RC_SOURCE_FILE_EXTENSIONS rc;RC)
