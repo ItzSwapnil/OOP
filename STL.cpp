@@ -48,7 +48,6 @@ int main() {
     }
     cout << endl;
 
-    // Sorting Students by ID
     sort(vs.begin(), vs.end(), [](const Student &a, const Student &b) { return a.getID() < b.getID(); });
     cout << "List of Students sorted by ID: " << endl;
     for (const Student& s : vs) {
@@ -56,7 +55,6 @@ int main() {
     }
     cout << endl;
 
-    // Sorting Students by Name
     sort(vs.begin(), vs.end(), [](const Student &a, const Student &b) { return a.getName() < b.getName(); });
     cout << "List of Students sorted by Name: " << endl;
     for (const Student& s : vs) {
@@ -64,7 +62,6 @@ int main() {
     }
     cout << endl;
 
-    // Search for a student by ID
     int targetId;
     cout << "Enter the student ID to search: ";
     cin >> targetId;
@@ -77,7 +74,6 @@ int main() {
     }
     cout << endl;
 
-    // Search for a student by Name
     string targetName;
     cout << "Enter the student name to search: ";
     cin >> targetName;
