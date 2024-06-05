@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <utility> // for std::move
+#include <utility>
 
 using namespace std;
 
@@ -29,7 +29,7 @@ void addStudent(vector<Student>& vs) {
     string name;
     int id;
     cout << "Enter student name: ";
-    cin.ignore(); // Clear the input buffer before getting the name
+    cin.ignore();
     getline(cin, name);
     cout << "Enter student ID: ";
     cin >> id;
@@ -74,7 +74,7 @@ void searchByID(const vector<Student>& vs) {
 void searchByName(const vector<Student>& vs) {
     string targetName;
     cout << "Enter the student name to search: ";
-    cin.ignore(); // Clear the input buffer
+    cin.ignore();
     getline(cin, targetName);
     auto it = find_if(vs.begin(), vs.end(), [targetName](const Student &s) { return s.getName() == targetName; });
     if (it != vs.end()) {
